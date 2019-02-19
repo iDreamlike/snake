@@ -8,7 +8,7 @@ namespace Snake
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main( string[] args )
         {
             int x1 = 1;
             int y1 = 3;
@@ -26,10 +26,10 @@ namespace Snake
 
         }
 
-        static void Draw(int x, int y, char sym)
+        static void Draw( int x, int y, char sym )
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
+            Console.SetCursorPosition( x, y );
+            Console.Write( sym );
         }
     }
 }
